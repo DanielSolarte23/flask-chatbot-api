@@ -1,0 +1,190 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": [
+          "hola",
+          "que tal",
+          "como estás",
+          "buenos dias",
+          "buenas tardes",
+          "buenas noches",
+          "como va todo",
+          "que pasa",
+          "saludos",
+          "hi",
+          "hey"
+        ],
+        "responses": [
+          "Hola!",
+          "Buenos dias!",
+          "Como estas",
+          "¡Que tal!",
+          "¡Hola, cómo puedo ayudarte?",
+          "¡Hola! ¿En qué te puedo asistir?"
+        ]
+      },
+      {
+        "tag": "nombre",
+        "patterns": [
+          "como es tu nombre",
+          "como te llamas",
+          "cual es tu nombre",
+          " ",
+          "quien estas",
+          "como te puedo llamar"
+        ],
+        "responses": [
+          "Me llamo ADSO-IA.",
+          "Mi nombre es ADSO-IA.",
+          "Soy ADSO-IA, ¿y tú?",
+          "Puedes llamarme ADSO-IA."
+        ]
+      },
+      {
+        "tag": "despedida",
+        "patterns": [
+          "adios",
+          "hasta luego",
+          "nos vemos",
+          "chao",
+          "hasta pronto",
+          "me voy",
+          "adios, hasta la próxima"
+        ],
+        "responses": [
+          "¡Hasta luego!",
+          "Nos vemos pronto.",
+          "Adiós, ¡que tengas un buen día!",
+          "¡Cuídate!",
+          "Hasta pronto, ¡espero verte de nuevo!"
+        ]
+      },
+      {
+        "tag": "agradecimiento",
+        "patterns": [
+          "gracias",
+          "muchas gracias",
+          "te lo agradezco",
+          "mil gracias",
+          "gracias por tu ayuda",
+          "te agradezco mucho"
+        ],
+        "responses": [
+          "¡De nada!",
+          "No hay de qué.",
+          "¡Es un placer ayudarte!",
+          "Con gusto.",
+          "¡Siempre estoy para ayudarte!"
+        ]
+      },
+      {
+        "tag": "informacion",
+        "patterns": [
+          "que es esto",
+          "para que sirves",
+          "qué puedes hacer",
+          "dime de que se trata",
+          "en que me puedes ayudar",
+          "que funcionalidades tienes"
+        ],
+        "responses": [
+          "Soy un chatbot creado para ayudarte con tus preguntas.",
+          "Estoy aquí para responder a tus dudas y asistirte con lo que necesites.",
+          "Puedo responder a preguntas generales y asistirte en diversas tareas.",
+          "Soy un asistente virtual, ¿en qué puedo ayudarte?"
+        ]
+      },
+      {
+        "tag": "hora",
+        "patterns": [
+          "que hora es",
+          "dime la hora",
+          "cual es la hora",
+          "hora actual",
+          "que hora tienes"
+        ],
+        "responses": [
+          "Lo siento, no tengo acceso a la hora actual.",
+          "No puedo acceder a la hora en este momento.",
+          "¿Te gustaría saber algo más?"
+        ]
+      },
+      {
+        "tag": "clima",
+        "patterns": [
+          "que clima hace",
+          "como está el clima",
+          "como está el tiempo",
+          "que temperatura hace",
+          "esta lloviendo",
+          "hace frío hoy"
+        ],
+        "responses": [
+          "Lo siento, no tengo acceso a informacion sobre el clima.",
+          "No puedo decirte el clima ahora.",
+          "No tengo datos sobre el clima en tiempo real."
+        ]
+      },
+      {
+        "tag": "ubicacion",
+        "patterns": [
+          "donde estas",
+          "en qué ciudad te encuentras",
+          "donde vives",
+          "donde te encuentras"
+        ],
+        "responses": [
+          "Soy un chatbot, no tengo una ubicación física.",
+          "No tengo una ubicación específica, pero estoy aquí para ayudarte en línea."
+        ]
+      },
+      {
+        "tag": "soporte",
+        "patterns": [
+          "necesito ayuda",
+          "tengo un problema",
+          "me puedes ayudar",
+          "tengo una duda",
+          "quiero soporte",
+          "ayuda por favor"
+        ],
+        "responses": [
+          "Claro, ¿en qué puedo ayudarte?",
+          "Estoy aquí para ayudarte. ¿Cuál es tu pregunta?",
+          "Cuéntame tu problema y trataré de asistirte."
+        ]
+      },
+      {
+        "tag": "contacto",
+        "patterns": [
+          "como me pongo en contacto contigo",
+          "como puedo comunicarme",
+          "como hablar contigo",
+          "quiero hablar contigo",
+          "necesito tu contacto"
+        ],
+        "responses": [
+          "Puedes escribir tus dudas aquí y estaré encantado de responderte.",
+          "Puedes preguntarme lo que quieras aquí mismo.",
+          "Solo necesitas escribir tu pregunta y responderé lo más rápido posible."
+        ]
+      },
+      {
+        "tag": "recursos",
+        "patterns": [
+          "donde puedo encontrar más información",
+          "donde puedo leer más",
+          "tienes enlaces útiles",
+          "como puedo obtener más detalles",
+          "tienes tutoriales o guías"
+        ],
+        "responses": [
+          "Lo siento, no tengo acceso a enlaces externos.",
+          "No puedo proporcionarte enlaces directos, pero puedo responder preguntas generales.",
+          "Si tienes alguna pregunta, estaré feliz de responderla."
+        ]
+      }
+    ]
+  }
+  
